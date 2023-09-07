@@ -53,7 +53,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 #Verify success:
 
 docker-compose version
-
+# go to dir where docker compose yaml file is present
 cd /opt/bezkoder/docker-compose-spring-boot-mysql-master
 
 docker-compose up
