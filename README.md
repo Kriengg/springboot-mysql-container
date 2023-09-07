@@ -54,6 +54,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 docker-compose version
 
+cd /opt/bezkoder/docker-compose-spring-boot-mysql-master
+
 docker-compose up
 
 http://publicIP:6868/api/tutorials
